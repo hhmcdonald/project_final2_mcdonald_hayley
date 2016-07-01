@@ -128,3 +128,31 @@ h2 #logo {
 #typography p {
 	margin: 0;
 }
+
+/* Buttons */
+
+#buttons {
+	background: #f6f2e9;
+	padding: 2em 0;
+}
+
+#buttons h2 {
+	margin-bottom: 1em;
+}
+
+#buttons p {
+	text-align: center;
+}
+
+#buttons p a {
+	color: #f57b4a;
+	border: #f57b4a solid 2px;
+	padding: 5px;
+	text-decoration: none;
+	margin: 0 auto;
+}
+
+#buttons p a:hover {
+	color: #ffffff;
+	background: #f57b4a;
+}
