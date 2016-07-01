@@ -1,5 +1,7 @@
 # [Hayley's Final Project pt 2](https://github.com/hhmcdonald/project_final2_mcdonald_hayley)
 
+# [Hayley's Live Style Prototype](http://hayleymacdesigns.com/finalpt2/)
+
 ## Resources
 
 * [MDN position summary](https://developer.mozilla.org/en-US/docs/Web/CSS/position) I used this link as a resource as I began layout out my styletile prototype. I wanted to make sure I was positioning the elements with mobile-first design in mind.
