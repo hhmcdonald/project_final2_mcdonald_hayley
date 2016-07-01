@@ -7,3 +7,59 @@ html {
 *::after {
 	box-sizing: inherit;
 }
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+	color: #252525;
+	height: auto;
+}
+
+h1,
+h2 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-family: "Pacifico", cursive;
+	font-weight: 200;
+	color: #252525;
+}
+
+h2 {
+	font-size: 1.8em;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+p {
+	margin-top: 0;
+	line-height: 180%;
+	text-align: center;
+}
+
+main {
+	margin: 0 auto;
+}
+
+#topBar {
+	background: #252525;
+	width: 100%;
+	padding: 1em;
+}
+
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 2em;
+	height: auto;
+}
+
+@media all and (min-width: 1200px) {
+	.wrapper {
+		padding: 0;
+	}
+}
