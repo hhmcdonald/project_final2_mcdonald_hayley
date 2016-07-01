@@ -63,3 +63,47 @@ main {
 		padding: 0;
 	}
 }
+
+/* Header */
+
+header {
+	background: #d7efee;
+	padding: 2em 0;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 2.2em;
+}
+
+@media all and (min-width: 1035px) {
+	header h1 {
+		font-size: 3.3em;
+		float: right;
+		margin-top: 10%;
+		margin-right: 10%;
+	}
+}
+
+h2 #logo {
+	text-align: center;
+}
+
+#logo img {
+	width: 30%;
+	height: auto;
+	max-width: 300px;
+	min-width: 100px;
+}
+
+@media all and (min-width: 1035px) {
+	.mobilelogo {
+		display: none;
+	}
+}
+
+@media all and (max-width: 1035px) {
+	.desktoplogo {
+		display: none;
+	}
+}
